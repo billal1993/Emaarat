@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Link } from "react-router-dom";
+import Navbar from "./navbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Welcome to the Emaarat
-      </h1>
+    <div>
+      <Navbar />
+      <h1>Welcome to the Emaarat.com</h1>
     </div>
   );
 }
