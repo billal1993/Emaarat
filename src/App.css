@@ -1,8 +1,35 @@
-.App {
-  text-align: center;
-}
 .nav-rapper {
-  background-color: #61dafb;
+  display: flex;
+  align-items: center;
+  padding: 0px 2rem;
+  height: 5em;
+  background-color: #c3d5d5;
+}
+.nav-links-rapper{
+  width: -webkit-fill-available;
+    display: flex;
+    justify-content: center
+}
+.center{
+  display: flex;
+    gap: 6rem;
+}
+.nav-links{
+  text-decoration: none;
+  color:black;
+}
+.nav-links:hover{
+  color:#8a288f;
+}
+.nav-band-link{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #8a288f;
+}
+.disabled{
+  pointer-events: none;
+  cursor: default;
+  opacity: .6;
 }
 .App-header {
   background-color: #282c34;
