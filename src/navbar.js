@@ -1,15 +1,27 @@
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <div>
-      <nav>
-        <h3>Emaarat.com</h3>
-        <Link to="/">Home</Link>
-        <Link to="/properties">Properties</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/Blogs">Blogs</Link>
-      </nav>
-    </div>
+    <nav className="nav-rapper">
+      <Link to="/" className="nav-band-link">
+        Emaarat.com
+      </Link>
+      <div className="nav-links-rapper">
+        <div className="center">
+          <Link to="/" className="nav-links">
+            Home
+          </Link>
+          <Link to="/properties" className="nav-links disabled">
+            Properties
+          </Link>
+          <Link to="/projects" className="nav-links disabled">
+            Projects
+          </Link>
+          <Link to="/Blogs" className="nav-links disabled">
+            Blogs
+          </Link>
+        </div>
+      </div>
+    </nav>
   );
 }
 export default Navbar;
