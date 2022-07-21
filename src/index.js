@@ -11,7 +11,7 @@ import Navbar from "./navbar";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="appWrapper">
-    <Navbar />
+    {/* <Navbar /> */}
     <div className="appContent">
       <BrowserRouter>
         <Routes>
